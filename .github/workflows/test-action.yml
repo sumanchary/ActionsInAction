@@ -12,7 +12,7 @@ jobs:
         id: action
         uses: ./
         with:
-          who-to-greet: '@wulfland'
+          who-to-greet: '@suman'
 
       - name: output the answer
         run: echo "The answer is ${{ steps.action.outputs.answer }}"
